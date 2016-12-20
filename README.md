@@ -16,7 +16,7 @@ Welcome to Notes App!
 | /notes/:id | GET | List all notes from the current user | 
 | /notes | GET | List all notes from the current user (e.g /notes/123) | 
 | /notes | POST | Create a new note with the content of the JSON param (e.g {"content": "Hello friend!"}) | 
-| /notes/:id | PUT | Create a new note with the content of the JSON param (e.g send  {"content": "Goodbye friend!"} to /notes/123) | 
+| /notes/:id | PUT | Update the note specified id with the content of the JSON param (e.g send  {"content": "Goodbye friend!"} to /notes/123) | 
 | /notes/:id | DELETE | Delete the note with specific ID  (e.g /notes/123) | 
 
 
