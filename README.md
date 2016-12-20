@@ -1,6 +1,18 @@
 Welcome to Notes App!
 ===================
 ----------
+Configuration
+-------------
+> **To configure the solution to run locally, follow these steps:**
+
+> - Fill <i>config.action_mailer.smtp_settings</i> with your SMTP data in <i>environments/development.rb</i>
+> - Fill your database connection settings in <i>config.database.yml</i>
+> - Access your project folder using Terminal or Bash and run <i>rake db:migrate</i>
+
+
+----------
+Routes
+-------------
 
 | path | method | purpose |
 |:-----|:-------|:--------|
@@ -20,11 +32,3 @@ Welcome to Notes App!
 | /notes/:id | DELETE | Delete the note with specific ID  (e.g /notes/123) | 
 
 
-Configuration
--------------
-> **To configure the solution to run locally, follow these steps:**
-
-> - Fill <i>config.action_mailer.smtp_settings</i> with your SMTP data in <i>environments/development.rb</i>
-> - Fill your database connection settings in <i>config.database.yml</i>
- > - Access your project folder using Terminal or Bash and run <i>rake db:migrate</i>
-#### <i class="icon-file"></i> Create a document
